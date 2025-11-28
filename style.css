@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header {
     width: 100vw;
     height: 100vh;
-    background: url(header_bg.webp);
+    background: url(zakroite-ruki-nabrav-na-klaviature.jpg);
+    color:white;
     background-size: cover;
     display: flex;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(176, 192, 192, 0.351);
+    border-radius: 20px;
 }
 
 .header_left {
