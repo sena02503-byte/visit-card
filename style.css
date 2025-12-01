@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+html{
+    overflow: scroll;
+    scroll-behavior: smooth;
+    transition-duration: 2s;
+}
 
 body {
     margin: 0;
@@ -61,6 +66,10 @@ header {
     cursor: pointer;
 }
 
+.header_btn a{
+    color: white;
+
+}
 .header_btn:hover {
     transform: scale(1.05);
 }
